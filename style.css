@@ -1,0 +1,36 @@
+.gato-responsive {
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+}
+.gato-responsive:hover {
+  box-shadow: 0 0 20px #fe05d1;
+}
+.contenedor-gato-responsive {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 32px;
+}
+.contenedor-galeria {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.galeria {
+  display: flex;
+  width: 800px;
+  height: 400px;
+}
+.galeria img {
+  width: 0;
+  flex-grow: 1;
+  object-fit: cover;
+  filter: brightness(80%);
+  transition: 1s ease;
+}
+.galeria img:hover {
+  width: 400px;
+  opacity: 1;
+  filter: brightness(100%);
+}
