@@ -13,6 +13,7 @@
 }
 .contenedor-galeria {
   margin-top: 30px;
+  margin-bottom: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,4 +34,21 @@
   width: 400px;
   opacity: 1;
   filter: brightness(100%);
+}
+.contenedor-perro-responsive {
+  display: flex;
+  gap: 4px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.perrito {
+  display: flex;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  flex-basis: 100px;
+}
+.perrito:hover {
+  box-shadow: 0 0 20px #052ffe;
 }
