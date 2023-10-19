@@ -1,0 +1,16 @@
+img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+}
+img:hover{
+    box-shadow: 0 0 20px #fe05d1;   
+}
+div{
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(150px, 1fr)
+    );
+    gap: 32px;
+}
